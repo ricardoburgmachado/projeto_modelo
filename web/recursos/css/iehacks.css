@@ -1,0 +1,38 @@
+/* 
+    Document   : iehacks
+    Created on : 07/01/2013, 14:50:20
+    Author     : ricardo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#menu li a.mais { 	
+        
+        float /*\**/: left;
+        _float: left;
+        float: left;
+ }
+
+ #conteudo_interno #form_incluirpessoa input {
+     
+     _margin-left: 0px;
+     _padding-left: 0px;
+     *margin-left: 0px;
+     *padding-left: 0px;
+     margin-left /*\**/: 0px;
+     padding-left /*\**/: 0px;
+     margin-left : 0px;
+     padding-left : 0px;
+ }
+ 
+ #conteudo_interno #form_incluirpessoa fieldset input {
+     
+     padding-left : 0px;
+     _padding-left: 0px;
+     *padding-left: 0px;
+     padding-left /*\**/: 0px;
+     margin-left: 0px;
+     _margin-left: 0px;
+     *margin-left: 0px;
+     margin-left /*\**/: 0px;
+ }
