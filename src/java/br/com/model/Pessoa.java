@@ -6,6 +6,7 @@
 package br.com.model;
 
 import java.io.Serializable;
+import java.util.Date;
 import javax.validation.constraints.*;
 /**
  *
@@ -22,6 +23,7 @@ public class Pessoa implements Serializable{
     private String email;
    // @Id
     private int id;
+    private Date dataNasc;
     
     public Pessoa() {}
     
@@ -78,4 +80,14 @@ public class Pessoa implements Serializable{
     public void setId(int id) {
         this.id = id;
     }
+
+    public Date getDataNasc() {
+        return dataNasc;
+    }
+
+    public void setDataNasc(Date dataNasc) {
+        this.dataNasc = dataNasc;
+    }
+    
+    
 }

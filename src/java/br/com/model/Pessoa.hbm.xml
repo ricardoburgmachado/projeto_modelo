@@ -14,5 +14,7 @@
         <property name="nome" column="nome" not-null="true"/>
     
         <property name="email" column="email" not-null="true"/>
+        
+        <property name="dataNasc" column="data_nasc" not-null="true"/>
     </class>
 </hibernate-mapping>

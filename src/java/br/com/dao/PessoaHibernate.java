@@ -9,7 +9,6 @@ import br.com.model.Pessoa;
 import java.util.ArrayList;
 import java.util.List;
 import org.hibernate.Criteria;
-import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
@@ -76,9 +75,9 @@ public class PessoaHibernate implements PessoaDAO {
     public List<Pessoa> lista() {
         this.session = null;
         this.session = HibernateUtil.openSession();
-        
+
         List<Pessoa> pessoas = new ArrayList<Pessoa>();
-        try{
+        try {
             Criteria criteria = this.session.createCriteria(Pessoa.class);
             pessoas = (List<Pessoa>) criteria.list();
         } catch (Exception ex) {
