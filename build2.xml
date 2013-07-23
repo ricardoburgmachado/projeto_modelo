@@ -9,7 +9,7 @@
   <property name="docs.dir" location="docs" />
   
   <!-- Variables used for JUnit testin -->
-  <property name="test.dir" location="src" />
+  <property name="test.dir" location="test" />
   <property name="test.report.dir" location="testreport" />
   
   <!-- Define the classpath which includes the junit.jar and the classes after compiling-->
