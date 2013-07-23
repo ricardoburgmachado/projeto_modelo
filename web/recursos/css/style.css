@@ -283,11 +283,19 @@ ol#menurel li a {
 
 .listarpessoas {
     
-    width: 100%;
-    border: 1px solid black;
     font-size: 15px;
     color: #444444;
     text-decoration: none;
+    
+    display:block;
+    float:left;
+    padding: 0px 0px 10px 10px;
+    margin:  10px 0px 10px 10px;
+    width: 780px;
+    background-color: #E4E4E4;
+    border: 1px solid #444444;
+
+    
 }
 
 .listarpessoas .head{
