@@ -11,35 +11,29 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <link rel="stylesheet" href="<c:url value="/recursos/css/style.css"/>" />
-
-
-        <!--
+        
+        <!-- inicio importação biblioteca Jquery -->
         <link rel="stylesheet" href="<c:url value="/recursos/js/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.css"/>" />
         <link rel="stylesheet" href="<c:url value="/recursos/js/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.min.css"/>" />
-
         <link rel="stylesheet" href="recursos/js/jquery-ui-1.10.3.custom/development-bundle/themes/base/jquery.ui.all.css">
-
         <script type="text/javascript" src="<c:url value="recursos/js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js"/>" ></script>
         <script type="text/javascript" src="<c:url value="recursos/js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"/>" ></script>
-
         <script type="text/javascript" src="<c:url value="recursos/js/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js"/>" ></script>
         <script type="text/javascript" src="<c:url value="recursos/js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.datepicker.js"/>" ></script>
-
-
         <script type="text/javascript" src="<c:url value="recursos/js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js"/>" ></script>
         <script type="text/javascript" src="<c:url value="recursos/js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js"/>" ></script>
         <script type="text/javascript" src="<c:url value="recursos/js/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.datepicker.js"/>" ></script>
-        script>
-            $("#datepicker").datepicker({});
-        </script>
-        <title>JSP Page</title>
-        -->
-        
+        <script type="text/javascript" src="<c:url value="recursos/js/jquery-ui-1.10.3.custom/js/calendario.js"/>" ></script>
+        <!-- fim importação biblioteca Jquery -->
+
+
+
+
         <!--[if IE]>
             <link rel="stylesheet" type="text/css" href="<c:url value="/recursos/css/iehacks.css"/>" />
         <![endif]-->    
 
-
+        <title>JSP Page</title>
     </head>
     <body>
 
@@ -69,16 +63,9 @@
                         <label for="email">Email:</label>
                         <input type="text" name="email" required="required" /> 
 
-                        <!--
+
                         <label for="dataNascimento">Data nascimento:</label>
-                        <input type="text" id="datepicker" />
-                        
-                        <label for="email">Foto:</label><br/>
-                        
-                        
-                        <div style="clear:both"></div>
-                        <button type="submit" >Seleciona foto</button> 
-                        -->
+                        <input type="text" name="dataNasc" id="dataNasc" value="" />
 
                         <div style="clear:both"></div>
 
